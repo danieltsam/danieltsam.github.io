@@ -11,8 +11,10 @@ export const About = () => {
         <div className="max-w-3xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">About Me</h2>
 
-            <div className="rounded-xl p-8 border-white/10 border hover:border-blue-500/30 transition-all">
-                <p className="text-gray-300 mb-6">What do you mean, am I getting into fashion? DO YOU SEE THIS COAT?!</p>
+            <div className="rounded-xl p-8 border-white/10 border hover:border-blue-500/30 transition-all text-center">
+                <p className="text-gray-300 mb-6">I’m a second-year uni student who's passionate about tech, problem-solving, and continuous learning.
+									I enjoy working with systems, automation, and scripting to make things run smoother.
+									Right now, I’m currently learning and exploring Cloud, DevOps, and Cybersecurity to broaden my skills and take on new challenges.</p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="rounded-xl p-6 hover:translate-y-1 transition-all">

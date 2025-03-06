@@ -49,3 +49,15 @@ html, body {
   opacity: 1;
   transform: translateY(0);
 }
+
+footer p {
+  margin-top: auto;
+  margin: 0px;
+  color:#746c6c;
+  background-color: #1b1a1a;
+  font-size: 15px;
+  width: 98vw;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
