@@ -15,12 +15,12 @@ export const Home = () => {
             Check out my projects, resume, or just say hi!
             </p>
             <div className="flex justify-center space-x-4">
-                <a href="#projects" className="bg-blue-500 text-white px-6 py-3 rounded font-medium transition relative overflow-hidden 
-                hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">View Projects</a>
-                <a href="#contact" className="border border-blue-500/50 text-blue-500 px-6 py-3 rounded font-medium transition-all duration-200 
-                hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">Contact Me</a>
-                <a href="#about" className="bg-blue-500 text-white px-6 py-3 rounded font-medium transition relative overflow-hidden 
-                hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">About Me</a>
+            <a href="#about" className="border border-blue-500/50 text-blue-500 px-6 py-3 rounded font-medium transition relative overflow-hidden 
+                hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] hover:bg-blue-50 hover:border-blue-500 hover:border-3">About Me</a>
+                <a href="#projects" className="border border-blue-500/50 text-blue-500 px-6 py-3 rounded font-medium transition relative overflow-hidden 
+                hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] hover:bg-blue-50 hover:border-blue-500 hover:border-3">View Projects</a>
+                <a href="#contact" className="border border-blue-500/50 text-blue-500 px-6 py-3 rounded font-medium transition relative overflow-hidden 
+                hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] hover:bg-blue-50 hover:border-blue-500 hover:border-3">Contact Me</a>
             </div>
         </div>
         </RevealOnScroll>
