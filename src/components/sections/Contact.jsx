@@ -19,10 +19,10 @@ export const Contact = () => {
             setFormData({name: "", email: "", message: ""})
         }).catch(() => alert("Oops! Something wentwrong. Please try sending your message again"));
     }
-    return <section id="contact" className="min-h-screen flex items-center justify-center py-20">
+    return <section id="contact" className="min-h-screen flex items-center justify-center py-5">
         <RevealOnScroll>
             <div className="px-4 w-200">
-                <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Get In Touch</h2>
+                <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-violet-800 bg-clip-text text-transparent text-center">Get In Touch</h2>
                 <form className="space-y-6" onSubmit={handleSubmitForm}>
                     <div className="relative">
                         <input type="text" id="name" name="name" required className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none 
@@ -39,6 +39,7 @@ export const Contact = () => {
                     <button type="submit" className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden
                     hover:-translate-y-1 hover:shadow[0_0_15px_rgba(59, 130, 246, 0.4)]">Send Message</button>
                 </form>
+                <p className="text-gray-300text-center m-4 text-center">or you're welcome to send me an email at <br></br> <a href="mailto:daniel.sam@gmx.com">daniel.sam@gmx.com</a></p>
             </div>
         </RevealOnScroll>
     </section>

@@ -61,3 +61,7 @@ footer p {
   padding: 10px;
   text-align: center;
 }
+
+a {
+  text-decoration: underline;
+}
