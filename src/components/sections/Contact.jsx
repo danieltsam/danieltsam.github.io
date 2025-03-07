@@ -26,15 +26,15 @@ export const Contact = () => {
                 <form className="space-y-6" onSubmit={handleSubmitForm}>
                     <div className="relative">
                         <input type="text" id="name" name="name" required className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none 
-                        focus:border-blue-500 focus:bg-blue-500/5" placeholder="Name:" value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})}/>
+                        focus:border-blue-500 focus:bg-blue-500/5" placeholder="Name" value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})}/>
                     </div>
                     <div className="relative">
                         <input type="email" id="email" name="email" required className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none 
-                        focus:border-blue-500 focus:bg-blue-500/5" placeholder="example@shrek.com" value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})}/>
+                        focus:border-blue-500 focus:bg-blue-500/5" placeholder="Email" value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})}/>
                     </div>
                     <div className="relative">
                         <textarea id="message" name="message" required rows={10} className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none 
-                        focus:border-blue-500 focus:bg-blue-500/5" placeholder="Write your message here:" value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})}/>
+                        focus:border-blue-500 focus:bg-blue-500/5" placeholder="Write your message here!" value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})}/>
                     </div>
                     <button type="submit" className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden
                     hover:-translate-y-1 hover:shadow[0_0_15px_rgba(59, 130, 246, 0.4)]">Send Message</button>

@@ -6,12 +6,12 @@ export const About = () => {
     const devSkills = ["node.js", "AWS", "Python", "Not sure tbh, need to learn more"]
 
     return (
-    <section id="about" className="min-h-screen flex items-center justify-center py-20">
+    <section id="about" className="min-h-screen flex items-center justify-center px-3py-20">
 				<RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">About Me</h2>
 
-            <div className="rounded-xl p-8 border-white/10 border hover:border-blue-500/30 transition-all text-center">
+            <div className="rounded-xl px-8 py-5 border-white/10 border hover:border-blue-500/60 hover:border-3 transition-all text-center">
                 <p className="text-gray-300 mb-6">I’m a second-year uni student who's passionate about tech, problem-solving, and continuous learning.
 									I enjoy working with systems, automation, and scripting to make things run smoother.
 									Right now, I’m currently learning and exploring Cloud, DevOps, and Cybersecurity to broaden my skills and take on new challenges.</p>
@@ -41,13 +41,14 @@ export const About = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                <div className="grid grid-cols-1 gap-6 mt-8">
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">Education 🏫</h3>
-                        <ul className="list-disc list0inside text-gray-300 space-y-2">
+                        <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
                                 <strong> Bachelor of Information Technology </strong> - Queensland University of Technology (2024-2026)
                             </li>
+                            <br></br>
                             <li>
                                 <strong> Masters of Data Analytics </strong> - Queensland University of Technology (2026-2027)
                             </li>
@@ -57,12 +58,25 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Work Experience 🏢</h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold"> System Administrator at Australian Bureau of Statistics (2024 - Present)</h4>
-                                <p> Managed VDI... </p>	
+                                <h4 className="font-bold text-base"> System Administrator at Australian Bureau of Statistics<br></br>(2024 - Present)</h4>
+                                <br></br>
+                                <ul className="list-disc list-inside text-gray-300 space-y-2 mx-10 text-sm">
+                                    <li>Managed and supported end-user computing environments, ensuring secure and efficient operation of IT systems.</li>
+                                    <li>Collaborated with teams across various projects to implement IT solutions and troubleshoot technical issues.</li>
+                                    <li>Developed automation processes to streamline workflows, improving system performance and reducing manual intervention.</li>
+                                    <li>Contributed to maintaining system security and compliance with ACSC Essential 8 standards, including vulnerability management and patching.</li>
+                                </ul>
                             </div>
-														<div>
-                                <h4 className="font-semibold"> IT Officer at St William's Primary School (2024 - 2025) </h4>
-                                <p> Managed Airwatch MDM... </p>	
+                            <div>
+                                <br></br>
+                                <h4 className="font-bold text-base"> IT Officer at St William's Primary School<br></br> (2024 - 2025) </h4>
+                                <br></br>
+                                <ul className="list-disc list-inside text-gray-300 space-y-2 mx-10 text-sm">
+                                    <li>Provided IT support across the organisation, ensuring seamless operation of hardware, software, and network systems.</li>
+                                    <li>Assisted in the setup, maintenance, and troubleshooting of IT infrastructure, ensuring reliable services for staff and students.</li>
+                                    <li>Worked alongside the IT team to enhance system performance, implementing improvements and resolving technical issues.</li>
+                                    <li>Supported ongoing maintenance efforts, ensuring systems were secure, up-to-date, and aligned with organisational requirements.</li>
+                                </ul>	
                             </div>
                         </div>
                     </div>
