@@ -2,8 +2,8 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const sysadminSkills = ["Nutanix", "Powershell", "Citrix", "MECM"]
-    const devSkills = ["node.js", "AWS", "Python", "Not sure tbh, need to learn more"]
+    const sysadminSkills = ["Nutanix", "PowerShell", "Citrix", "MECM", "AD", "PSADT"]
+    const devSkills = ["React", "HTML", "TailwindCSS", "Python", "C#", "Java"]
 
     return (
     <section id="about" className="min-h-screen flex items-center justify-center px-3">
