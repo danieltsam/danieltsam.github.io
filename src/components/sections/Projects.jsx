@@ -3,11 +3,11 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Projects = () => {
     return (
         
-        <section id="projects" className="min-h-screen flex items-center justify-center py-20">
+        <section id="projects" className="min-h-screen flex items-center justify-center">
             <RevealOnScroll>
             <div className="max-w-5xl mx-auto px-4">
-            <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-violet-800 bg-clip-text text-transparent text-center">Featured Projects</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <h2 className="text-7xl font-bold mb-8 min-h-15 title-gradient bg-clip-text text-transparent text-center" id="title">Featured Projects</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     {/*Project 1*/}
                     <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-2 hover:border-blue-500/60 hover:border-3 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
                         <h3 className="text-xl font-bold mb-2">Release Time</h3>
@@ -20,7 +20,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://release-time.onrender.com" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Live Project ➡️</a>
+                            <a target="_blank" href="https://release-time.onrender.com" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Live Project ➡️</a>
                         </div>
                     </div>
                     {/*Project 2*/}
@@ -35,7 +35,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://release-time.onrender.com" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Live Project ➡️</a>
+                            <a target="_blank" href="https://release-time.onrender.com" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Live Project ➡️</a>
                         </div>
                     </div>
                     

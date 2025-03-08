@@ -4,9 +4,18 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: "Source Code Pro", sans-serif;
-  background: #121212;
-  color: #ffffff
+  background: var(--color-gray-900);
+  scroll-behavior: smooth;
 }
+
+#home, #about, #projects, #contact {
+  background-color: var(--color-gray-900);
+}
+
+.title-gradient {
+  @apply bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-300 shadow-xl py-6 px-20 rounded-full shadow-indigo-500/20;
+}
+
 
 @layer utilities {
   @keyframes blink {
@@ -42,26 +51,33 @@ html, body {
 .reveal {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition: opacity 1.5s ease-in-out, transform 0.1s ease-in-out;
+  background-color: inherit;
 }
 
 .reveal.sectionVisible {
   opacity: 1;
   transform: translateY(0);
+  visibility: visible;
 }
 
 footer p {
   margin-top: auto;
-  margin: 0px;
-  color:#746c6c;
-  background-color: #1b1a1a;
+  margin: 3px;
+  color:#c2b8b8;
+  background-color: #2d303e;
   font-size: 15px;
-  width: 98vw;
+  width: 99vw;
   border-radius: 10px;
   padding: 10px;
+  align-items: center;
   text-align: center;
 }
 
-a {
+#link {
   text-decoration: underline;
+}
+
+#about {
+  scroll-margin-top: 150px;
 }

@@ -6,10 +6,10 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
         document.body.style.overflow = menuOpen ? "hidden" : "";
     }, [menuOpen]);
 
-    return <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,10)] backdrop-blur-lg border-b border-white/10">
+    return <nav className="fixed top-0 w-full z-40 bg-gray-910 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
-                <a href="#home" className="font-mono text-xl font-bold text-white">Daniel Sam</a>
+                <a href="#home" className="font-mono text-3xl font-bold bg-gradient-to-b from-gray-300 to-indigo-500 bg-clip-text text-transparent">Daniel Sam</a>
 
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
                     &#9776;

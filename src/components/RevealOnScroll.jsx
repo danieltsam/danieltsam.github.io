@@ -8,6 +8,9 @@ export const RevealOnScroll = ({children}) => {
             if(entry.isIntersecting) {
                 ref.current.classList.add("sectionVisible");
             }
+            else {
+                ref.current.classList.remove("sectionVisible");
+            }
         }, {threshold: 0.2, rootMargin: "0px 0px -50px 0px"});
 
         if (ref.current) observer.observe(ref.current);

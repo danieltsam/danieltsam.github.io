@@ -6,10 +6,10 @@ export const About = () => {
     const devSkills = ["node.js", "AWS", "Python", "Not sure tbh, need to learn more"]
 
     return (
-    <section id="about" className="min-h-screen flex items-center justify-center px-3py-20">
-				<RevealOnScroll>
+    <section id="about" className="min-h-screen flex items-center justify-center px-3">
+        <RevealOnScroll>
         <div className="max-w-3xl mx-auto">
-            <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-violet-800 bg-clip-text text-transparent text-center">About Me</h2>
+            <h2 className="text-7xl font-bold mb-8 title-gradient bg-clip-text text-transparent text-center" id="title">About Me</h2>
 
             <div className="rounded-xl px-8 py-5 border-white/30 border-3 border hover:border-blue-500/60 hover:border-5 transition-all text-center">
                 <p className="text-gray-300 mb-6">I’m a second-year uni student who's passionate about tech, problem-solving, and continuous learning.
@@ -85,7 +85,7 @@ export const About = () => {
             </div>
 
         </div>
-				</RevealOnScroll>
+    </RevealOnScroll>	
     </section>
     );
 };
