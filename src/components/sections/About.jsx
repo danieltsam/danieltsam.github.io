@@ -29,7 +29,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className="rounded-xl p-6 border border-white/20 hover:translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Development</h3>
+                        <h3 className="text-xl font-bold mb-4">Software Development</h3>
                         <div className="flex flex-wrap gap-2">
                             {devSkills.map((skills, key) => (
                                 
