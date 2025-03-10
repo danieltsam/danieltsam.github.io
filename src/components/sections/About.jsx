@@ -60,7 +60,7 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Work Experience 💼</h3>
                         <div className="space-y-4 text-gray-200">
                             <div>
-                                <h4 className="font-bold text-base"> System Administrator at Australian Bureau of Statistics<br></br>(2024 - Present)</h4>
+                                <h4 className="text-base"><strong>System Administrator</strong> at <strong>Australian Bureau of Statistics</strong><br></br>(2024 - Present)</h4>
                                 <br></br>
                                 <ul className="list-disc list-inside space-y-2 mx-10 text-sm">
                                     <li>Managed and supported end-user computing environments, ensuring secure and efficient operation of IT systems.</li>
@@ -71,7 +71,7 @@ export const About = () => {
                             </div>
                             <div>
                                 <br></br>
-                                <h4 className="font-bold text-base"> IT Officer at St William's Primary School<br></br> (2024 - 2025) </h4>
+                                <h4 className="text-base"><strong>IT Officer</strong> at <strong>St William's Primary School</strong><br></br> (2024 - 2025) </h4>
                                 <br></br>
                                 <ul className="list-disc list-inside space-y-2 mx-10 text-sm">
                                     <li>Provided IT support across the organisation, ensuring seamless operation of hardware, software, and network systems.</li>
