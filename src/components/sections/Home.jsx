@@ -5,7 +5,7 @@ export const Home = () => {
         <section id="home" className="flex items-center justify-center relative container">
             <RevealOnScroll>
                 <div className="text-center z-10 w-full">
-                    <h1 className="mt-15 title-gradient whitespace-nowrap">
+                    <h1 className="mt-15 title-gradient ">
                         Hi, I'm Daniel.
                     </h1>
 
@@ -15,9 +15,9 @@ export const Home = () => {
                         <br></br>
                         Check out my projects, resume, or just say hi!
                     </p>
-                    <div className="flex flex-col sm:flex-row justify-center m-15 sm:space-x-20">
+                    <div className="flex flex-col sm:flex-row justify-center m-15 sm:mt-20 sm:space-x-20">
                         <div className="group flex-1 rounded-4xl text-center transition-all duration-300 mb-4">
-                            <div className="bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-4xl p-1 group-hover:p-2 hover:scale-110 transition-all duration-300">
+                            <div className="bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-4xl p-1 group-hover:p-2 hover:scale-110 transition-all delay-50 duration-400">
                                 <div className="bg-neutral-950 px-7 py-3 font-semibold text-2xl rounded-4xl shadow-2xl shadow-pink-100/40">
                                     <a href="#about">About</a>
                                 </div>
@@ -25,7 +25,7 @@ export const Home = () => {
                         </div>
 
                         <div className="group flex-1 rounded-4xl text-center transition-all duration-300 mb-4">
-                            <div className="bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-4xl p-1 group-hover:p-2 hover:scale-110 transition-all duration-300">
+                            <div className="bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-4xl p-1 group-hover:p-2 hover:scale-110 transition-all delay-50 duration-400">
                                 <div className="bg-neutral-950 px-7 py-3 font-semibold text-2xl rounded-4xl shadow-2xl shadow-pink-100/40">
                                     <a href="#projects">Projects</a>
                                 </div>
@@ -33,7 +33,7 @@ export const Home = () => {
                         </div>
 
                         <div className="group flex-1 rounded-4xl text-center transition-all duration-300 mb-4">
-                            <div className="bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-4xl p-1 group-hover:p-2 hover:scale-110 transition-all duration-300">
+                            <div className="bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-4xl p-1 group-hover:p-2 hover:scale-110 transition-all delay-50 duration-400">
                                 <div className="bg-neutral-950 px-7 py-3 font-semibold text-2xl rounded-4xl shadow-2xl shadow-pink-100/40">
                                     <a href="#contact">Contact</a>
                                 </div>

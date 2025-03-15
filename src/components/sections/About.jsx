@@ -9,7 +9,7 @@ export const About = () => {
     <section id="about" className="min-h-screen flex items-center justify-center px-3">
         <RevealOnScroll>
         <div className="max-w-3xl mx-auto">
-            <h2 className="title-gradient  sm:mt-0" id="title">About Me</h2>
+            <h2 className="title-gradient mt-10 sm:mt-0" id="title">About Me</h2>
 
             <div className="rounded-4xl p-1.5 bg-linear-to-tl from-purple-500 via-indigo-500 to-pink-500 text-center hover:translate-y-1 hover:scale-101 transition-all hover:p-3 duration-300">
                 <div className="bg-neutral-950 p-4 max-w-180 rounded-4xl shadow-2xl shadow-pink-100/40">
