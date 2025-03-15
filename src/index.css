@@ -36,7 +36,7 @@ html, body {
   }
 }
 
-/* Utility Animations */
+
 @layer utilities {
   @keyframes blink {
     0%, 100% {
@@ -62,12 +62,11 @@ html, body {
 
   .animate-loading-bar {
     animation: loading 2s ease infinite;
-    width: 30%; /* Make it adaptable */
-    min-width: 50px; /* Ensure visibility on mobile */
+    width: 80%; 
+    min-width: 50px; 
   }
 }
 
-/* Reveal effect for sections */
 .reveal {
   opacity: 0;
   transform: translateY(20px);
@@ -81,7 +80,6 @@ html, body {
   visibility: visible;
 }
 
-/* Footer Adjustments */
 footer {
   margin-top: auto;
   background-color: #1f212a;
@@ -105,7 +103,6 @@ footer p {
   scroll-margin-top: 100px;
 }
 
-/* Ensure the container class is defined outside of media queries */
 .container {
   max-width: 100%;
   margin: 0 auto;

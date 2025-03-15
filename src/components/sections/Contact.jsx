@@ -22,7 +22,7 @@ export const Contact = () => {
     return <section id="contact" className="flex items-center justify-center mb-5">
         <RevealOnScroll>
             <div className="px-4 max-w-5xl">
-                <h2 className="title-gradient mt-50 sm:mt-0" id="title">Get In Touch</h2>
+                <h2 className="title-gradient  sm:mt-0" id="title">Get In Touch</h2>
                 <form className="space-y-6" onSubmit={handleSubmitForm}>
                     <div className="relative">
                         <input type="text" id="name" name="name" required className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none 
