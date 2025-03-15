@@ -5,7 +5,7 @@ export const Home = () => {
         <section id="home" className="flex items-center justify-center relative container">
             <RevealOnScroll>
                 <div className="text-center z-10 w-full">
-                    <h1 className="mt-15 title-gradient ">
+                    <h1 className="mt-30 sm:mt-50 title-gradient ">
                         Hi, I'm Daniel.
                     </h1>
 

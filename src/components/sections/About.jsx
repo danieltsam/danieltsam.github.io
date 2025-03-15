@@ -11,7 +11,7 @@ export const About = () => {
         <div className="max-w-3xl mx-auto">
             <h2 className="title-gradient mt-10 sm:mt-0" id="title">About Me</h2>
 
-            <div className="rounded-4xl p-1.5 bg-linear-to-tl from-purple-500 via-indigo-500 to-pink-500 text-center hover:translate-y-1 hover:scale-101 transition-all hover:p-3 duration-300">
+            <div className="rounded-4xl p-3 bg-linear-to-tl from-purple-500 via-indigo-500 to-pink-500 text-center hover:translate-y-1 hover:scale-102 transition-all hover:p-4.5 duration-500 ease-in-out">
                 <div className="bg-neutral-950 p-4 max-w-180 rounded-4xl shadow-2xl shadow-pink-100/40">
                     <p className="text-gray-200 mb-6 text-center">I’m a second-year uni student who's passionate about tech, problem-solving, and continuous learning.
                                         I enjoy working with systems, automation, and scripting to make things run smoother.

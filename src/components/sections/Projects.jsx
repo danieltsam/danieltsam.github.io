@@ -11,9 +11,9 @@ export const Projects = () => {
                     {/*Project 1*/}
                     <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-2 hover:border-indigo-500/60 hover:border-3 transition">
                         <h3 className="text-xl font-bold mb-2">Release Time</h3>
-                        <p className="text-gray-400 mb-4">Release Time was my way of messing around with a TV API while learning how to convert and display time data properly.
+                        <p className="text-gray-400 mb-4">Release Time was created because I was frustrated I could never find what time an international TV show released in my local time.
                              It was a fun challenge in learning to work with APIs, data formatting,
-                            and making everything look clean and reliable.</p>
+                            and learning about back-ends.</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "HTML", "TailwindCSS" ].map((skills, key) => (
                                 <span key={key} className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:text-blue-300 hover:bg-blue-500/20 transition">
