@@ -6,7 +6,7 @@ export const About = () => {
     const devSkills = ["React", "HTML", "TailwindCSS", "Python", "C#", "Java"]
 
     return (
-    <section id="about" className="min-h-screen flex items-center justify-center px-3">
+    <section id="about" className="flex items-center justify-center p-3">
         <RevealOnScroll>
         <div className="max-w-3xl mx-auto">
             <h2 className="title-gradient mt-10 sm:mt-0" id="title">About Me</h2>
@@ -44,7 +44,7 @@ export const About = () => {
                 
 
                 <div className="grid grid-cols-1 gap-6 mt-8">
-                    <div className="p-6 rounded-xl border-white/30 border hover:translate-y-1 transition-all">
+                    <div className="p-2 sm:p-6 rounded-xl border-white/30 border hover:translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">Education 👨🏻‍🎓</h3>
                         <ul className="list-disc list-inside text-gray-200 space-y-2">
                             <li>
@@ -56,7 +56,7 @@ export const About = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="px-0 sm:p-6 rounded-xl border-white/30 border hover:translate-y-1 transition-all">
+                    <div className="p-2 sm:p-6 rounded-xl border-white/30 border hover:translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">Work Experience 💼</h3>
                         <div className="space-y-4 text-gray-200">
                             <div>
