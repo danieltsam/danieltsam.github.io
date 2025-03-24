@@ -63,10 +63,10 @@ export const About = () => {
                                 <h4 className="text-base"><strong>System Administrator</strong> at <strong>Australian Bureau of Statistics</strong><br></br>(2024 - Present)</h4>
                                 <br></br>
                                 <ul className="list-disc list-inside space-y-2 mx-10 text-sm">
-                                    <li>Managed and supported end-user computing environments, ensuring secure and efficient operation of IT systems.</li>
-                                    <li>Collaborated with teams across various projects to implement IT solutions and troubleshoot technical issues.</li>
-                                    <li>Developed automation processes to streamline workflows, improving system performance and reducing manual intervention.</li>
-                                    <li>Contributed to maintaining system security and compliance with ACSC Essential 8 standards, including vulnerability management and patching.</li>
+                                <li>Managed and supported a large-scale virtualized environment, ensuring compliance with the ACSC's Essential 8.</li>
+                                <li>Resolved IT support tickets across various systems, including virtual desktop infrastructure (VDI) and enterprise applications, while troubleshooting and remediating OS, application, and security issues.</li>
+                                <li>Packaged and deployed applications using software distribution tools like AppV and MECM, streamlining deployment processes and implementing automation for efficiency.</li>
+                                <li>Collaborated with stakeholders and vendors to ensure the successful execution of IT projects and seamless service delivery.</li>
                                 </ul>
                             </div>
                             <div>
