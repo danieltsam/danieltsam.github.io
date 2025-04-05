@@ -10,10 +10,8 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-200 text-md sm:text-xl mb-8 max-w-80 sm:max-w-180 mx-auto justify-center">
-                        I love solving problems, automating the boring stuff, and making tech work smarter. Whether it’s troubleshooting, scripting, or building something new, I’m always up for a challenge.
-                        <br></br>
-                        <br></br>
-                        Check out my projects, resume, or just say hi!
+                    I’m passionate about automating tasks, exploring new technologies, and improving how systems work.
+                    Whether it's troubleshooting, scripting, or optimizing workflows, I enjoy finding efficient solutions to everyday problems.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center m-15 sm:mt-20 sm:space-x-20">
                         <div className="group flex-1 rounded-4xl text-center transition-all duration-300 mb-4">
