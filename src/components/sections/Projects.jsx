@@ -22,7 +22,7 @@ export const Projects = () => {
         <section id="projects" className="min-h-screen flex items-center justify-center">
             <RevealOnScroll>
             <div className="max-w-5xl mx-auto px-1">
-            <h2 className="title-gradient mt-10" id="title">Featured Projects</h2>
+            <h2 className="title-gradient mt-10" id="title">Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-10 sm:mx-0">
                     {/*Project 4*/}
                     <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-2 hover:border-indigo-500/60 hover:border-3 transition">
